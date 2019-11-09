@@ -1,3 +1,33 @@
+/* Keyframes */
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+.fadeIn {
+	opacity: 0;   
+	animation: fadeIn ease-in 1;
+	animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+@keyframes rotate { from { opacity: 0; } to { opacity: 1; transform: rotate(360deg) } }
+.rotate {
+    opacity: 0;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards; 
+    animation-duration: 1s;
+
+	animation: rotate ease-in 1;
+	animation-fill-mode: forwards;
+    animation-duration: 1s;
+}
+
+@keyframes fromUp { from { top: -226px;} to { top: 0px;}}
+.fromUp {
+    top: -50px;
+    animation: fromUp ease-in 1;
+    animation-fill-mode: forwards; 
+    animation-duration: 0.5s;
+}
+
+
 #background {
     background: #28B291;
     position: absolute;
@@ -14,7 +44,9 @@
     border-bottom-right-radius: 100px;
     z-index: 1;
 }
+/***********************************/
 
+/* Banner */
 #bananaLeaf {
     position: absolute;
     left: calc((100vw - 750px) / 2);
@@ -36,6 +68,7 @@
     right: 0;
     z-index: -1;
 }
+/***********************************/
 
 #kungsPortrait {
     position: absolute;
@@ -52,6 +85,7 @@
     left: 80px;
 }
 
+/* Headline */
 #name {
     font-size: 90px;
     font-family: flegrei, sans-serif;
@@ -65,37 +99,23 @@
     font-weight: 700;
     font-style: normal;
 }
+/***********************************/
 
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-.fadeIn {
-	opacity: 0;   
-	animation: fadeIn ease-in 1;
-	animation-fill-mode: forwards;
-    animation-duration: 1s;
-    animation-delay: 0.7s;
-}
-
-@keyframes rotate { from { opacity: 0; } to { opacity: 1; transform: rotate(360deg) } }
-.rotate {
-    opacity: 0;
-    animation: fadeIn ease-in 1;
-    animation-fill-mode: forwards; 
-    animation-duration: 1s;
-    animation-delay: 0.7s; 
-
-	animation: rotate ease-in 1;
-	animation-fill-mode: forwards;
-    animation-duration: 1s;
-    animation-delay: 0.7s; 
-}
-
-.milestones {
+/* Milestones */
+.milestonesImages {
     position: absolute;
-    border: transparent;
     border-radius: 500px;
     width: 50px;
     height: 50px;
     z-index: 2;
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.603);
+}
+
+.bar {
+    position: absolute;
+    width: 250px;
+    height: 10px;
+    background: #F5865B;
 }
 
 #spotify {
@@ -105,11 +125,23 @@
     height: 250px;
 }
 
+#barSpotify {
+    top: 970px;
+    left: 625px;
+    width: 350px;
+}
+
 #nrjAwards {
     top: 660px;
     left: 600px;
     width: 250px;
     height: 250px;
+}
+
+#barNJR {
+    top: 700px;
+    left: 725px;
+    width: 350px;
 }
 
 #los40 {
@@ -119,56 +151,9 @@
     height: 150px;
 }
 
-.milestonesText {
-    font-size: 25px;
-    font-family: gilbert-color,sans-serif;
-    font-weight: 700;
-    font-style: normal;
+#barLos40 {
+    top: 800px;
+    left: 225px;
 }
-
-.bar {
-    background: #F5865B;
-    height: 10px;
-    width: 200px;
-    position: absolute;
-    z-index: 2;
-}
-
-#bar1 {
-    top: 790px;
-    left: 275px
-}
-
-#milestonesText1 {
-    position: absolute;
-    top: 810px;
-    left: 170px;
-    text-align: right;
-}
-
-#bar2 {
-    top: 1000px;
-    left: 625px;
-    width: 250px;
-}
-
-#milestonesText2 {
-    position: absolute;
-    top: 740px;
-    left: 860px;
-    text-align: right;
-}
-
-#bar3 {
-    top: 720px;
-    left: 750px;
-    width: 250px;
-}
-
-#milestonesText3 {
-    position: absolute;
-    top: 1030px;
-    left: 760px;
-    text-align: right;
-}
+/***********************************/
 
