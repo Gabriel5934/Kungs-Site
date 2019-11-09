@@ -27,7 +27,7 @@
     animation-duration: 0.5s;
 }
 
-@keyframes fallDown { from { height: 0px;} to { height: 1000px;}}
+@keyframes fallDown { from { height: 0px;} to { height: 654px;}}
 .fallDown {
     height: 0px;
     animation: fallDown ease-in 1;
@@ -125,9 +125,44 @@
 .biography {
     color: #28B291;
     left: 1400px;
-    top: 1273px;
     z-index: 3;
     position: absolute;
+    font-size: 65px;
+    font-family: gilbert-color,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bioIcon {
+    position: absolute;
+    z-index: 3;
+    width: 100px;
+    height: 100px;
+    left: 1280px;
+}
+
+#franceMap {
+    top: 1150px;
+}
+
+#placeBirth {
+    top: 1161px;
+}
+
+#song {
+    top: 1350px;
+}
+
+#songsCreated {
+    top: 1361px;
+}
+
+#singer {
+    top: 1550px
+}
+
+#nominated {
+    top: 1523px;
 }
 
 /***********************************/
