@@ -1,0 +1,174 @@
+#background {
+    background: #28B291;
+    position: absolute;
+    width: 100vw;
+    height: 2000px;
+}
+
+#navbar {
+    background: #4B4B4B;
+    position: fixed;
+    width: 50px;
+    height: 90vh;
+    border-bottom: transparent;
+    border-bottom-right-radius: 100px;
+    z-index: 1;
+}
+
+#bananaLeaf {
+    position: absolute;
+    left: calc((100vw - 750px) / 2);
+    z-index: 1;
+}
+
+.blur {
+    filter: blur(6px);
+}
+
+#bananaBlur1 {
+    position: absolute;
+    left: 45px;
+    z-index: -1;
+}
+
+#bananaBlur2 {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+#kungsPortrait {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: calc((100vh - 725px) / 2)
+}
+
+.text {
+    color: #393939;
+    z-index: 2;
+    position: absolute;
+    top: 480px;
+    left: 80px;
+}
+
+#name {
+    font-size: 90px;
+    font-family: flegrei, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#occupation {
+    font-size: 45px;
+    font-family: gilbert-color,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+.fadeIn {
+	opacity: 0;   
+	animation: fadeIn ease-in 1;
+	animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 0.7s;
+}
+
+@keyframes rotate { from { opacity: 0; } to { opacity: 1; transform: rotate(360deg) } }
+.rotate {
+    opacity: 0;
+    animation: fadeIn ease-in 1;
+    animation-fill-mode: forwards; 
+    animation-duration: 1s;
+    animation-delay: 0.7s; 
+
+	animation: rotate ease-in 1;
+	animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-delay: 0.7s; 
+}
+
+.milestones {
+    position: absolute;
+    border: transparent;
+    border-radius: 500px;
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+}
+
+#spotify {
+    top: 930px;
+    left: 500px;
+    width: 250px;
+    height: 250px;
+}
+
+#nrjAwards {
+    top: 660px;
+    left: 600px;
+    width: 250px;
+    height: 250px;
+}
+
+#los40 {
+    top: 760px;
+    left: 400px;
+    width: 150px;
+    height: 150px;
+}
+
+.milestonesText {
+    font-size: 25px;
+    font-family: gilbert-color,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bar {
+    background: #F5865B;
+    height: 10px;
+    width: 200px;
+    position: absolute;
+    z-index: 2;
+}
+
+#bar1 {
+    top: 790px;
+    left: 275px
+}
+
+#milestonesText1 {
+    position: absolute;
+    top: 810px;
+    left: 170px;
+    text-align: right;
+}
+
+#bar2 {
+    top: 1000px;
+    left: 625px;
+    width: 250px;
+}
+
+#milestonesText2 {
+    position: absolute;
+    top: 740px;
+    left: 860px;
+    text-align: right;
+}
+
+#bar3 {
+    top: 720px;
+    left: 750px;
+    width: 250px;
+}
+
+#milestonesText3 {
+    position: absolute;
+    top: 1030px;
+    left: 760px;
+    text-align: right;
+}
+
