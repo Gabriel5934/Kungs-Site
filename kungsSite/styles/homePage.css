@@ -266,7 +266,7 @@
     left: 177px;
 }
 /***********************************/
-.card-container {
+.los40Container {
     width: 150px; height: 150px;
     border-radius: 4px;
     perspective: 900px;
@@ -277,7 +277,7 @@
     z-index: 3;
 }
 
-.card {
+.los40Card {
     position: absolute;
     width: 100%; height: 100%;
     transition: all .7s;
@@ -286,20 +286,97 @@
     border: transparent;
 }
 
-.card-container:hover .card{
+.los40Container:hover .los40Card{
     transform: rotateY(-180deg);
 }
 
-    .front {
-        background: linear-gradient(90deg, #0086FF, #0066FF);
-    }
-
-    .back {
-        background: linear-gradient(90deg, #FF2A78, #F100AE);
+    .los40Back {
         transform: rotateY(-180deg);
     }
 
-    .front, .back {
+    .los40Front, .los40Back {
+        position: absolute;
+        width: 100%; height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        border-radius: 150px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+                    0 6px 6px rgba(0, 0, 0, 0.23);
+        backface-visibility: hidden;
+    }
+
+.NJRContainer {
+    width: 250px; height: 250px;
+    border-radius: 4px;
+    perspective: 900px;
+    background-color: transparent;
+    position: absolute;
+    top: 660px;
+    left: 600px;
+    z-index: 3;
+}
+
+.NJRCard {
+    position: absolute;
+    width: 100%; height: 100%;
+    transition: all .7s;
+    transform-style: preserve-3d;
+    background-color: transparent;
+    border: transparent;
+}
+
+.NJRContainer:hover .NJRCard{
+    transform: rotateY(-180deg);
+}
+
+    .NJRBack {
+        transform: rotateY(-180deg);
+    }
+
+    .NJRFront, .NJRBack {
+        position: absolute;
+        width: 100%; height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        border-radius: 150px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+                    0 6px 6px rgba(0, 0, 0, 0.23);
+        backface-visibility: hidden;
+    }
+
+.spotifyContainer {
+    width: 250px; height: 250px;
+    border-radius: 4px;
+    perspective: 900px;
+    background-color: transparent;
+    position: absolute;
+    top: 930px;
+    left: 500px;
+    z-index: 3;
+}
+
+.spotifyCard {
+    position: absolute;
+    width: 100%; height: 100%;
+    transition: all .7s;
+    transform-style: preserve-3d;
+    background-color: transparent;
+    border: transparent;
+}
+
+.spotifyContainer:hover .spotifyCard{
+    transform: rotateY(-180deg);
+}
+
+    .spotifyBack {
+        transform: rotateY(-180deg);
+    }
+
+    .spotifyFront, .spotifyBack {
         position: absolute;
         width: 100%; height: 100%;
         display: flex;
