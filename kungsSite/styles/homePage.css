@@ -27,7 +27,7 @@
     animation-duration: 0.5s;
 }
 
-@keyframes fallDown { from { height: 0px;} to { height: 654px;}}
+@keyframes fallDown { from { height: 0px;} to { height: 61.007462686567166vh;;}}
 .fallDown {
     height: 0px;
     animation: fallDown ease-in 1;
@@ -56,8 +56,9 @@
 /* Banner */
 #bananaLeaf {
     position: absolute;
-    left: calc((100vw - 750px) / 2);
+    left: 32.948vw;
     z-index: 1;
+    width: 37.5vw;
 }
 
 .blur {
@@ -68,20 +69,22 @@
     position: absolute;
     left: 45px;
     z-index: -1;
+    width: 37.5vw;
 }
 
 #bananaBlur2 {
     position: absolute;
     right: 0;
     z-index: -1;
+    width: 37.5vw;
 }
 
 #kungsLogo {
     position: absolute;
     z-index: 2;
-    width: 700px;
-    left: calc((100vw - 650px) / 2);
-    top: 34px;
+    width: 32.8vw;
+    left: 35vw;
+    top: 2vw;
 }
 /***********************************/
 
@@ -90,44 +93,42 @@
     position: absolute;
     z-index: 2;
     right: 0;
-    top: calc((100vh - 725px) / 2)
+    top: 17.85820895522388vh;
+    width: 42.19409282700422vw;
 }
 
 #kungsBase {
     position: absolute;
-    width: 902px;
-    height: 30px;
+    width: 42.287857477730896vw;
+    height: 2.798507462686567vh;
     background: #F5865B;
-    z-index: 3;
+    z-index: 4;
     right: 0;
-    top: 1043px;
+    top: calc(15.85820895522388vh + 42.19409282700422vw);
 }
 
 #kungsBoard {
     position: absolute;
-    width: 850px;
+    width: 39.84997655883732vw;
     background: #393939;
     z-index: 3;
-    right: 26px;
-    top: 1073px;
+    right: 1.2189404594467885vw;
+    top: calc(15.85820895522388vh + 42.19409282700422vw);
 }
 
 .text {
     color: #393939;
     z-index: 2;
-    position: absolute;
-    top: 480px;
-    left: 80px;
 }
 /***********************************/
 
 /* Biography */
 .biography {
     color: #28B291;
-    left: 1400px;
+    left: 65.63525550867323vw;
     z-index: 3;
     position: absolute;
-    font-size: 65px;
+    font-size: 3.0473511486169715vw;
     font-family: gilbert-color,sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -136,57 +137,63 @@
 .bioIcon {
     position: absolute;
     z-index: 3;
-    width: 100px;
-    height: 100px;
-    left: 1280px;
+    width: 4.688232536333802vw;
+    height: 4.688232536333802vw;
+    left: 60.00937646507267vw;
 }
 
 #franceMap {
-    top: 1150px;
+    top: 107.27611940298507vh;
 }
 
 #placeBirth {
-    top: 1161px;
+    top: 108.30223880597015vh;
 }
 
 #song {
-    top: 1350px;
+    top: 125.93283582089552vh;
 }
 
 #songsCreated {
-    top: 1361px;
+    top: 126.9589552238806vh;
 }
 
 #singer {
-    top: 1550px
+    top: 144.58955223880596vh;
 }
 
 #nominated {
-    top: 1523px;
+    top: 142.07089552238807vh;
 }
 
 /***********************************/
 
 /* Headline */
 #name {
-    font-size: 90px;
+    font-size: 4.688vw;
     font-family: flegrei, sans-serif;
     font-weight: 400;
     font-style: normal;
+    top: 23vw;
+    position: absolute;
+    left: 80px;
 }
 
 #occupation {
-    font-size: 45px;
+    font-size: 2.344vw;
     font-family: gilbert-color,sans-serif;
     font-weight: 700;
     font-style: normal;
+    left: 90px;
+    position: absolute;
+    top: 28vw;
 }
 /***********************************/
 
 /* Milestones */
 .milestonesImages {
     position: absolute;
-    border-width: 10px;
+    border-width: 0.46882325363338023vw;
     border-style: solid;
     border-color:#F5865B;
     border-radius: 500px;
@@ -197,90 +204,69 @@
 }
 
 .milestonesText {
-    font-size: 25px;
+    font-size: 1.1720581340834506vw;
     font-family: gilbert-color,sans-serif;
     font-weight: 700;
     font-style: normal;
+    position: absolute;
 }
 
 .bar {
     position: absolute;
-    width: 250px;
-    height: 10px;
+    width: 11.720581340834505vw;
+    height: 0.46882325363338023vw;
     background: #F5865B;
     box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.603);
 }
 
-#spotify {
-    top: 930px;
-    left: 500px;
-    width: 250px;
-    height: 250px;
-}
-
 #barSpotify {
-    top: 970px;
-    left: 625px;
-    width: 350px;
+    top: 90.48507462686567vh;
+    left: 29.301453352086263vw;
+    width: 16.408813877168306vw;
 }
 
 #textSpotify {
-    left: 755px;
-    top: 985px;
-}
-
-#nrjAwards {
-    top: 660px;
-    left: 600px;
-    width: 250px;
-    height: 250px;
+    left: 35.39615564932021vw;
+    top: 91.88432835820896vh;
 }
 
 #barNJR {
-    top: 700px;
-    left: 725px;
-    width: 350px;
+    top: 65.29850746268657vh;
+    left: 33.98968588842006vw;
+    width: 16.408813877168306vw;
 }
 
 #textNJR {
-    top: 715px;
-    left: 855px;
-
-}
-
-#los40 {
-    top: 760px;
-    left: 400px;
-    width: 150px;
-    height: 150px;
+    top: 66.69776119402985vh;
+    left: 40.08438818565401vw;
 }
 
 #barLos40 {
-    top: 800px;
-    left: 225px;
+    top: 74.6268656716418vh;
+    left: 10.548523206751055vw;
 }
 
 #textLos40 {
     text-align: right;
-    top: 815px;
-    left: 177px;
+    top: 76.02611940298507vh;
+    left: 8.29817158931083vw;
 }
 /***********************************/
 .los40Container {
-    width: 150px; height: 150px;
+    width: 7.032348804500703vw; height: 7.032348804500703vw;
     border-radius: 4px;
     perspective: 900px;
     background-color: transparent;
     position: absolute;
-    top: 760px;
-    left: 400px;
+    top: 70.8955223880597vh;
+    left: 18.75293014533521vw;
     z-index: 3;
 }
 
 .los40Card {
     position: absolute;
     width: 100%; height: 100%;
-    transition: all .7s;
+    transition: .7s;
     transform-style: preserve-3d;
     background-color: transparent;
     border: transparent;
@@ -290,31 +276,31 @@
     transform: rotateY(-180deg);
 }
 
-    .los40Back {
-        transform: rotateY(-180deg);
-    }
+.los40Back {
+    transform: rotateY(-180deg);    
+}
 
-    .los40Front, .los40Back {
-        position: absolute;
-        width: 100%; height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        border-radius: 150px;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
-                    0 6px 6px rgba(0, 0, 0, 0.23);
-        backface-visibility: hidden;
-    }
+.los40Front, .los40Back {
+    position: absolute;
+    width: 100%; height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 150px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+                0 6px 6px rgba(0, 0, 0, 0.23);
+    backface-visibility: hidden;
+}
 
 .NJRContainer {
-    width: 250px; height: 250px;
+    width: 11.720581340834505vw; height: 11.720581340834505vw;
     border-radius: 4px;
     perspective: 900px;
     background-color: transparent;
     position: absolute;
-    top: 660px;
-    left: 600px;
+    top: 61.56716417910448vh;
+    left: 28.129395218002813vw;
     z-index: 3;
 }
 
@@ -331,31 +317,31 @@
     transform: rotateY(-180deg);
 }
 
-    .NJRBack {
-        transform: rotateY(-180deg);
-    }
+.NJRBack {
+    transform: rotateY(-180deg);
+}
 
-    .NJRFront, .NJRBack {
-        position: absolute;
-        width: 100%; height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        border-radius: 150px;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
-                    0 6px 6px rgba(0, 0, 0, 0.23);
-        backface-visibility: hidden;
+.NJRFront, .NJRBack {
+    position: absolute;
+    width: 100%; height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 150px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+                0 6px 6px rgba(0, 0, 0, 0.23);
+    backface-visibility: hidden;
     }
 
 .spotifyContainer {
-    width: 250px; height: 250px;
+    width: 11.720581340834505vw; height: 11.720581340834505vw;
     border-radius: 4px;
     perspective: 900px;
     background-color: transparent;
     position: absolute;
-    top: 930px;
-    left: 500px;
+    top: 86.75373134328358vh;
+    left: 23.44116268166901vw;
     z-index: 3;
 }
 
@@ -372,19 +358,19 @@
     transform: rotateY(-180deg);
 }
 
-    .spotifyBack {
-        transform: rotateY(-180deg);
-    }
+.spotifyBack {
+    transform: rotateY(-180deg);
+}
 
-    .spotifyFront, .spotifyBack {
-        position: absolute;
-        width: 100%; height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        border-radius: 150px;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
-                    0 6px 6px rgba(0, 0, 0, 0.23);
-        backface-visibility: hidden;
-    }
+.spotifyFront, .spotifyBack {
+    position: absolute;
+    width: 100%; height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 150px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+                0 6px 6px rgba(0, 0, 0, 0.23);
+    backface-visibility: hidden;
+}
