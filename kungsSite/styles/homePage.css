@@ -374,3 +374,19 @@
                 0 6px 6px rgba(0, 0, 0, 0.23);
     backface-visibility: hidden;
 }
+
+#homeIcon {
+    position: absolute;
+    z-index: 4;
+    width: 40px;
+    top: 10px;
+    left: 3.5px;
+}
+
+#discIcon {
+    position: absolute;
+    z-index: 4;
+    width: 40px;
+    top: 70px;
+    left: 3.5px;
+}

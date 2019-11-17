@@ -1,0 +1,50 @@
+#background {
+    background: #28B291;
+    position: absolute;
+    width: 100vw;
+    height: 20000px;
+}
+
+#navbar {
+    background: #4B4B4B;
+    position: fixed;
+    width: 50px;
+    height: 90vh;
+    border-bottom: transparent;
+    border-bottom-right-radius: 100px;
+}
+
+#homeIcon {
+    position: absolute;
+    z-index: 4;
+    width: 40px;
+    top: 10px;
+    left: 3.5px;
+}
+
+#discIcon {
+    position: absolute;
+    z-index: 4;
+    width: 40px;
+    top: 70px;
+    left: 3.5px;
+}
+
+#kungsSide {
+    position: absolute;
+    width: 50.570557899671826vw; height: 65.29850746268657vh;
+    right: -8.750586029067042vw;
+    top: 10vw;
+}
+
+#title {
+    color: #393939;
+    font-size: 4.688vw;
+    font-family: flegrei, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    top: 4vw;
+    position: absolute;
+    left: 90px;
+    background: #F5865B;
+}
