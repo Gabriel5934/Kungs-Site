@@ -1,0 +1,90 @@
+#background {
+    background: #28B291;
+    position: absolute;
+    width: 100vw;
+    height: 20000px;
+}
+
+#navbar {
+    background: #4B4B4B;
+    position: fixed;
+    width: 50px;
+    height: 90vh;
+    border-bottom: transparent;
+    border-bottom-right-radius: 100px;
+    z-index: 100;
+}
+
+#homeIcon {
+    position: fixed;
+    z-index: 4;
+    width: 40px;
+    top: 10px;
+    left: 3.5px;
+    z-index: 100;
+}
+
+#discIcon {
+    position: fixed;
+    z-index: 4;
+    width: 40px;
+    top: 70px;
+    left: 3.5px;
+    z-index: 100;
+}
+
+#micIcon {
+    position: fixed;
+    z-index: 4;
+    width: 40px;
+    top: 130px;
+    left: 3.5px;
+    z-index: 100;
+}
+
+#shows {
+    position: absolute;
+    background: #F5865B;
+    z-index: 3;
+    left: 10vw;
+    font-family: gilbert-color,sans-serif;
+    font-size: 4vw;
+    top: 8vh;
+}
+
+#map {
+    position: absolute;
+    left: 48vw;
+    top: 30vh;
+    height: 40vh;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.19),
+                0 11px 6px rgba(0, 0, 0, 0.23);
+    z-index: 2;
+    border-radius: 10px;
+}
+
+#nextShow {
+    color: #393939;
+    z-index: 4;
+    position: absolute;
+    text-align: center;
+    font-family: gilbert-color,sans-serif;
+    top: 40vh;
+    left: 15vw;
+}
+
+#card {
+    position: absolute;
+    top: 27vh;
+    background: #F5865B;
+    z-index: 1;
+    width: 100vw;
+    height: 46vh;
+}
+
+#banana {
+    position: absolute;
+    z-index: 0;
+    transform: rotateY(180deg);
+    left: 60vw;
+}

@@ -394,3 +394,11 @@
 #homeIcon, #discIcon {
     position: fixed;
 }
+
+#micIcon {
+    position: fixed;
+    z-index: 4;
+    width: 40px;
+    top: 130px;
+    left: 3.5px;
+}
