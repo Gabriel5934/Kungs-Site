@@ -30,13 +30,6 @@
     left: 3.5px;
 }
 
-#kungsSide {
-    position: absolute;
-    width: 50.570557899671826vw; height: 65.29850746268657vh;
-    right: -8.750586029067042vw;
-    top: 10vw;
-}
-
 #title {
     color: #393939;
     font-size: 4.688vw;
@@ -47,4 +40,66 @@
     position: absolute;
     left: 90px;
     background: #F5865B;
+}
+
+.albuns {
+    top: 60vh;
+    width: 10vw;
+    left: 45vw;
+}
+
+.videos {
+    position: absolute;
+    top: 3vh;
+    width: 45.0070323488045vw;
+    left: 27.5vw;
+}
+
+.albuns:hover {
+    width: 11vw;
+    left: 44.5vw;
+}
+
+.carousel-inner {
+    border-radius: 25px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.19),
+                0 11px 6px rgba(0, 0, 0, 0.23);
+}
+
+.videos>.carousel-inner {
+    border-color: #F5865B;
+    border-width: 5px;
+    border-style: solid;
+}
+
+#tropicalLeaf {
+    position: absolute;
+    top: -5vh;
+    transform: rotate(30deg);
+    width: 25.738396624472575vw;
+    left: 6vw;
+}
+
+#top3 {
+    position: absolute;
+    background: #F5865B;
+    z-index: 3;
+    left: 10vw;
+    font-family: gilbert-color,sans-serif;
+    font-size: 4vw;
+    top: 12vh;
+}
+
+#discography {
+    position: absolute;
+    background: #F5865B;
+    z-index: 3;
+    left: 10vw;
+    font-family: gilbert-color,sans-serif;
+    font-size: 4vw;
+    top: 87vh;
+}
+
+#homeIcon, #discIcon {
+    position: fixed;
 }
